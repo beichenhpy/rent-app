@@ -1,0 +1,223 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/User/User",
+			"style": {
+				"navigationBarTitleText": "我的信息",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/Order/Order",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/rentInfo/rentInfo",
+			"style": {
+				"navigationBarTitleText": "出租信息"
+			}
+		},
+		{
+			"path":"pages/login/register",
+			"style":{
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path":"pages/login/forget",
+			"style":{
+				"navigationBarTitleText": "忘记密码"
+			}
+		}
+	    ,{
+            "path" : "pages/addRent/addRent",
+            "style" : {
+				"navigationBarTitleText": "添加出租信息"
+			}
+        },
+		{
+			"path":"pages/login/reLogin",
+			"style":{
+				"navigationBarTitleText": "重新登录"
+			}
+		}
+        ,{
+            "path" : "pages/Authorization/Authorization",
+            "style" : {
+				"navigationBarTitleText": "认证"
+			}
+        }
+        
+        ,{
+            "path" : "pages/comment/comment",
+            "style" : {
+				"navigationBarTitleText": "我的留言"
+			}
+        }
+        ,{
+            "path" : "pages/rentInfo/video",
+            "style" : {
+			}
+        }
+        ,{
+            "path" : "pages/Order/orderInfoRenter",
+            "style" : {
+				"navigationBarTitleText": "我的订单详情",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/Order/orderInfoOwner",
+            "style" : {
+				"navigationBarTitleText": "我的出租详情",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/house/house",
+            "style" : {
+				"navigationBarTitleText": "房屋管理",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/house/addHouse",
+            "style" : {
+				"navigationBarTitleText": "添加房屋"
+			}
+        }
+        ,{
+            "path" : "pages/eCard/eCard",
+            "style" : {
+				"navigationBarTitleText": "添加电子签名"
+			}
+        }
+        ,{
+            "path" : "pages/house/modifyHouse",
+            "style" : {
+				"navigationBarTitleText": "修改房屋信息"
+			}
+        }
+        ,{
+            "path" : "pages/house/modifyhouseInfo",
+            "style" : {
+				"navigationBarTitleText": "修改房屋详细信息"
+			}
+        }
+        ,{
+            "path" : "pages/house/houseInfo",
+            "style" : {
+				"navigationBarTitleText": "房屋详细信息"
+			}
+        }
+        ,{
+            "path" : "pages/Order/bills",
+            "style" : {
+				"navigationBarTitleText": "账单信息",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/Order/deposit",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/Order/contract",
+            "style" : {
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/User/MyDeposit",
+            "style" : {
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/comment/adminComment",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/comment/useComment",
+            "style" : {
+            	"enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+            }
+        }
+        ,{
+            "path" : "pages/User/ownerDeposit",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/User/myRent",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/rentInfo/modifyRent",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/statistics/statistics",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/statistics/yearStatistics",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/User/priceStatistics",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "北辰租房",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999794",
+		"selectedColor": "#33312E",
+		"borderStyle": "white",
+		"backgroundColor": "#fafafa",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/index_unSelect.png",
+				"selectedIconPath": "static/tabBar/index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/Order/Order",
+				"iconPath": "static/tabBar/order_unread.png",
+				"selectedIconPath": "static/tabBar/order.png",
+				"text": "订单"
+			},
+			{
+				"pagePath":"pages/comment/comment",
+				"iconPath":"static/tabBar/commentUn.png",
+				"selectedIconPath":"static/tabBar/commentSelected.png",
+				"text":"我的留言"
+			},
+			{
+				"pagePath": "pages/User/User",
+				"iconPath": "static/tabBar/user_unselect.png",
+				"selectedIconPath": "static/tabBar/user.png",
+				"text": "我的"
+			}
+		]
+
+	}
+}
